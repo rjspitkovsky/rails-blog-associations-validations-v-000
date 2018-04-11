@@ -19,6 +19,7 @@
   </div>
 
   <div class="field">
+    <%= f.label :tags %><br>
       <%= f.collection_radio_buttons :tag_ids, Tag.all, :id, :name %>
   </div>
 
