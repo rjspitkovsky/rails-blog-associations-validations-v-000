@@ -19,7 +19,7 @@
   </div>
 
   <div class="field">
-      <%= f.collection_radio_buttons :tag_ids, Tag.all, :id, :name %>
+      <%= f.collection_radio_buttons :tags :tag_ids, Tag.all, :id, :name %>
   </div>
 
   <div class="actions">
